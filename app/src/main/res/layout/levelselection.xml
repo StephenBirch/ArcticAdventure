@@ -1,0 +1,297 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <RelativeLayout
+        android:id="@+id/gameLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <ImageButton
+            android:id="@+id/iB1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="15dp"
+            android:src="@drawable/one" />
+
+        <ImageButton
+            android:id="@+id/iB2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/iB1"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/two" />
+
+        <ImageButton
+            android:id="@+id/iB3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/iB2"
+            android:layout_marginRight="20dp"
+            android:src="@drawable/three" />
+
+        <ImageButton
+            android:id="@+id/iB5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/iB2"
+            android:layout_alignTop="@+id/iB4"
+            android:src="@drawable/five" />
+
+        <ImageButton
+            android:id="@+id/iB6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/iB3"
+            android:layout_alignTop="@+id/iB5"
+            android:src="@drawable/six" />
+
+        <ImageButton
+            android:id="@+id/iB8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/iB5"
+            android:layout_alignTop="@+id/iB7"
+            android:src="@drawable/eight" />
+
+        <ImageButton
+            android:id="@+id/iB9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/iB6"
+            android:layout_alignTop="@+id/iB8"
+            android:src="@drawable/nine" />
+
+        <ImageButton
+            android:id="@+id/iB10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/iB7"
+            android:layout_below="@+id/iB7"
+            android:layout_marginTop="15dp"
+            android:src="@drawable/ic_launcher" />
+
+        <ImageButton
+            android:id="@+id/iB11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/iB8"
+            android:layout_alignTop="@+id/iB10"
+            android:src="@drawable/ic_launcher" />
+
+        <ImageButton
+            android:id="@+id/iB12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/iB9"
+            android:layout_alignTop="@+id/iB11"
+            android:src="@drawable/ic_launcher" />
+
+        <ImageButton
+            android:id="@+id/iB4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/iB1"
+            android:layout_below="@+id/iB1"
+            android:layout_marginTop="15dp"
+            android:src="@drawable/four" />
+
+        <ImageButton
+            android:id="@+id/iB7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/iB4"
+            android:layout_below="@+id/iB4"
+            android:layout_marginTop="15dp"
+            android:src="@drawable/seven" />
+
+        <ImageButton
+            android:id="@+id/iB13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/iB10"
+            android:layout_below="@+id/iB10"
+            android:layout_marginTop="16dp"
+            android:src="@drawable/ic_launcher" />
+
+        ImageButton
+            android:id="@+id/iB16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/ic_launcher" />
+
+        <ImageButton
+            android:id="@+id/iB14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/iB11"
+            android:layout_alignTop="@+id/iB13"
+            android:src="@drawable/ic_launcher" />
+
+        <ImageButton
+            android:id="@+id/iB15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/iB12"
+            android:layout_alignTop="@+id/iB14"
+            android:src="@drawable/ic_launcher" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Small Text"
+            android:id="@+id/timeView1"
+            android:layout_below="@+id/iB1"
+            android:layout_alignLeft="@+id/iB4"
+            android:layout_alignStart="@+id/iB4" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Small Text"
+            android:id="@+id/timeView3"
+            android:layout_above="@+id/iB6"
+            android:layout_alignLeft="@+id/iB3"
+            android:layout_alignStart="@+id/iB3" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Small Text"
+            android:id="@+id/timeView4"
+            android:layout_below="@+id/iB4"
+            android:layout_alignLeft="@+id/iB4"
+            android:layout_alignStart="@+id/iB4" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Small Text"
+            android:id="@+id/timeView7"
+            android:layout_above="@+id/iB11"
+            android:layout_alignLeft="@+id/iB7"
+            android:layout_alignStart="@+id/iB7" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Small Text"
+            android:id="@+id/timeView10"
+            android:layout_below="@+id/iB10"
+            android:layout_alignLeft="@+id/iB10"
+            android:layout_alignStart="@+id/iB10" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Small Text"
+            android:id="@+id/timeView13"
+            android:layout_below="@+id/iB13"
+            android:layout_alignRight="@+id/iB13"
+            android:layout_alignEnd="@+id/iB13" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Small Text"
+            android:id="@+id/timeView2"
+            android:layout_below="@+id/iB2"
+            android:layout_alignLeft="@+id/iB2"
+            android:layout_alignStart="@+id/iB2" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Small Text"
+            android:id="@+id/timeView5"
+            android:layout_below="@+id/iB5"
+            android:layout_alignLeft="@+id/iB5"
+            android:layout_alignStart="@+id/iB5" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Small Text"
+            android:id="@+id/timeView8"
+            android:layout_above="@+id/iB11"
+            android:layout_alignRight="@+id/iB8"
+            android:layout_alignEnd="@+id/iB8" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Small Text"
+            android:id="@+id/timeView11"
+            android:layout_below="@+id/iB11"
+            android:layout_alignLeft="@+id/iB11"
+            android:layout_alignStart="@+id/iB11" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Small Text"
+            android:id="@+id/timeView12"
+            android:layout_below="@+id/iB12"
+            android:layout_alignLeft="@+id/iB12"
+            android:layout_alignStart="@+id/iB12" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Small Text"
+            android:id="@+id/timeView9"
+            android:layout_above="@+id/iB12"
+            android:layout_alignLeft="@+id/iB9"
+            android:layout_alignStart="@+id/iB9" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Small Text"
+            android:id="@+id/timeView6"
+            android:layout_above="@+id/iB9"
+            android:layout_alignLeft="@+id/iB6"
+            android:layout_alignStart="@+id/iB6" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Small Text"
+            android:id="@+id/timeView14"
+            android:layout_below="@+id/iB14"
+            android:layout_alignLeft="@+id/iB14"
+            android:layout_alignStart="@+id/iB14" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Small Text"
+            android:id="@+id/timeView15"
+            android:layout_below="@+id/iB15"
+            android:layout_alignLeft="@+id/iB15"
+            android:layout_alignStart="@+id/iB15" />
+
+    </RelativeLayout>
+
+</FrameLayout>
